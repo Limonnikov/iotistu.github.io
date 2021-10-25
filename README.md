@@ -1,2 +1,2 @@
-# StasNS.github.io
+# iotistu.github.io
 Conference ISTU
