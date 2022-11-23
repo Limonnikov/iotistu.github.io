@@ -4139,7 +4139,7 @@ video, object {
 }
 .img-responsive {
 	display: inline-block;
-	border-radius: 100%;
+	/*border-radius: 100%;*/
 }
 .img-shadow {
 	-webkit-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
@@ -4497,11 +4497,10 @@ a, a:hover, .test-column, .test-column:hover {
 }
 .overlay-v span {
 	background: #fff;
-	padding: 40px;
+	padding: 15px;
 	width: 100%;
 	height: 100%;
 	font-weight: normal;
-	margin-top: 100%;
 	color: #222;
 	opacity: 0;
 	position: absolute;
@@ -5013,7 +5012,7 @@ footer .widget_list li a {
 	background:rgba(255,255,255,.1);
 }
 .schedule-listing .bg_red{
-	background:rgba(108, 191, 157, 0.6);
+	background:rgba(47,191,202,0.9);
 }
 .schedule-item .sc-time,
 .schedule-item .sc-name,
