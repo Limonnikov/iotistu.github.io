@@ -5019,7 +5019,8 @@ footer .widget_list li a {
 .schedule-item .sc-info,
 .schedule-item .sc-pic,
 .schedule-item .sc-sp,
-.schedule-item .sc-title{
+.schedule-item .sc-title,
+.sc-time-min{
 	float:left;
 }
 .schedule-item .sc-title{
@@ -5034,6 +5035,12 @@ footer .widget_list li a {
 }
 .schedule-item .sc-time {
 	width: 15%;
+	text-align:center;
+	margin-top: -10px;
+}
+
+.schedule-item .sc-time-min{
+	width: 5%;
 	text-align:center;
 	margin-top: -10px;
 }
