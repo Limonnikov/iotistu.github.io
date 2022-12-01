@@ -4496,19 +4496,20 @@ a, a:hover, .test-column, .test-column:hover {
 	opacity: 1;
 }
 .overlay-v span {
-	background: #fff;
+	background: #2FBFCA;
 	padding: 15px;
 	width: 100%;
 	height: 100%;
+	font-size: 16px;
 	font-weight: normal;
-	color: #222;
+	color: #fff;
 	opacity: 0;
 	position: absolute;
 	left: 0;
 }
 .overlay-v:hover span {
 	margin-top: 0px;
-	opacity: .9;
+	opacity: 0.9;
 }
 
 .overlay-sc {
