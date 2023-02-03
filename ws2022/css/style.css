@@ -700,6 +700,7 @@ h5.annotation + div {
 }
 h5.annotation:hover + div {
 	opacity: 100%;
+	z-index: auto;
 }
 @media (max-width:990px){
 	h5.annotation + div {
