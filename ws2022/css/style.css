@@ -685,6 +685,9 @@ section {
 	overflow: hidden !important;
 }
 
+h5.annotation {
+	text-decoration: dashed underline;
+}
 h5.annotation + div {
 	display: none;
     	position: absolute;
