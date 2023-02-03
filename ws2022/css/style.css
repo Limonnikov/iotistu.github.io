@@ -686,11 +686,20 @@ section {
 }
 
 h5.annotation + div {
-	display: hidden;
-	position: absolute;
+	display: none;
+    	position: absolute;
+    	background: #ccc;
+    	color: #000;
+    	padding: 10px;
+	margin-left: -150px;
 }
 h5.annotation:hover + div {
 	display: block;
+}
+@media (max-width:990px){
+	h5.annotation + div {
+		margin-left: 0;
+	}
 }
 
 /* ================================================== */
