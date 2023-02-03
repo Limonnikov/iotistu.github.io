@@ -685,6 +685,14 @@ section {
 	overflow: hidden !important;
 }
 
+h3.annotation + div {
+	display: hidden;
+	position: absolute;
+}
+h3.annotation:hover + div {
+	display: block;
+}
+
 /* ================================================== */
 
 
