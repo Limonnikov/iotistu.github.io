@@ -704,7 +704,8 @@ h5.annotation:hover + div {
 }
 @media (max-width:990px){
 	h5.annotation + div {
-		margin-left: 0;
+		margin: 0 auto;
+		left:0;
 	}
 }
 
