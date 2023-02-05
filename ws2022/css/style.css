@@ -698,6 +698,9 @@ h5.annotation + div {
 	margin-left: -150px;
 	transition: .5s;
 }
+h5.annotation.d2-last + div {
+	bottom:0;
+}
 h5.annotation:hover + div {
 	opacity: 100%;
 	z-index: 2;
