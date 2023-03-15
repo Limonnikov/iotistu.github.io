@@ -7,10 +7,10 @@ background-size: 100%;
 }
 
 /* background settings for section */
-#section-intro {background:url(../images/background/1.jpg) fixed;}
-#section-fun-facts {background:url(../images/background/2.jpg) fixed;}
-#section-schedules {background:url(../images/background/2.jpg) fixed;}
-#section-register {background:url(../images/background/2.jpg) fixed; }
+#section-intro {background:url(../images/background/1.png) fixed;}
+#section-fun-facts {background:url(../images/background/2.png) fixed;}
+#section-schedules {background:url(../images/background/2.png) fixed;}
+#section-register {background:url(../images/background/2.png) fixed; }
 
 /* background settings for footer */
 footer{
@@ -18,7 +18,7 @@ footer{
 -moz-background-size: 100%;
 -o-background-size: 100%;
 background-size: 100%;
-background:url(../images/background/2.jpg) fixed;
+background:url(../images/background/2.png) fixed;
 }
 
 /* media query */

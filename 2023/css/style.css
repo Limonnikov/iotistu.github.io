@@ -5173,7 +5173,7 @@ footer .widget_list li a {
 .schedule-item .sc-name {
 	font-weight: normal;
 	font-size: 14px;
-	width: 30%;
+	width: 50%;
 }
 .schedule-item .sc-name h4 {
 	font-size: 14px;
@@ -5199,7 +5199,7 @@ footer .widget_list li a {
 	font-size:18px !important;
 	margin-bottom: 10px;
 	line-height: 1.4em;
-	font-weight:bold;
+	/* font-weight:bold; */
 }
 .schedule-item .sc-info span {
 	font-size:14px !important;
