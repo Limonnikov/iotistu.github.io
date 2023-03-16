@@ -5180,7 +5180,7 @@ footer .widget_list li a {
 	font-size: 14px;
 	margin-bottom: 10px;
 	line-height: 1.4em;
-	margin-top: -5px;
+	/* margin-top: -5px; */
 	/*font-weight:bold;*/
 }
 .schedule-item .sc-name span {
@@ -5202,7 +5202,7 @@ footer .widget_list li a {
 	line-height: 1.4em;
 	font-weight:bold;
 }
-.sname {
+.sname h3 {
 	color: #80d6ff !important;
 }
 .schedule-item .sc-info span {
