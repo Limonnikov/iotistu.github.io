@@ -5202,6 +5202,9 @@ footer .widget_list li a {
 	line-height: 1.4em;
 	/* font-weight:bold; */
 }
+.sname {
+	color: #80d6ff !important;
+}
 .schedule-item .sc-info span {
 	font-size:14px !important;
 	margin-bottom: 10px;
