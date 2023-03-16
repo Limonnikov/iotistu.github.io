@@ -2283,7 +2283,7 @@ span.teaser {
 	color: #fff !important;
 }
 .de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6 {
-	color: #574a66;
+	color: #3e3c7f;
 }
 
 .text-white{
@@ -5204,7 +5204,10 @@ footer .widget_list li a {
 }
 .sname h3 {
 	color: #80d6ff !important;
-	padding-left: 145px;
+	padding-left: 145px;	
+}
+.sname{
+	width: 100%;
 }
 .schedule-item .sc-info span {
 	font-size:14px !important;
@@ -6275,7 +6278,7 @@ a.read_more i {
 	display: block;
 	margin-top: 5px;
 	margin-bottom: 20px;
-	color: #574a66;
+	color: #3e3c7f;
 	font-family: "Montserrat";
 
 }
@@ -7051,6 +7054,10 @@ a, img {
 	.slider_text {
 		padding-top: 0px;
 	}
+	.sname h3 {
+		color: #80d6ff !important;
+		padding-left: 0;
+	}
 }
 @media only screen and (max-width: 992px) {
 	.text-center-sm {
@@ -7684,7 +7691,10 @@ a, img {
 		padding-top:0px;
 		
 	}
-	
+	.sname h3 {
+		color: #80d6ff !important;
+		padding-left: 0;
+	}
 	
 }
 
@@ -7703,6 +7713,10 @@ a, img {
 	header div#logo img {
 		max-width: 200px;
 		height: auto;
+	}
+	.sname h3 {
+		color: #80d6ff !important;
+		padding-left: 0;
 	}
 }
 
@@ -7744,6 +7758,10 @@ a, img {
 	
 	.schedule-item .sc-pic{
 		display:none;
+	}
+	.sname h3 {
+		color: #80d6ff !important;
+		padding-left: 0;
 	}
 }
 
