@@ -300,7 +300,8 @@ you can use the generic selector below, but it's slower:
 	content: "\e055";
 }
 .icon-aperture:before {
-	content: "\e056";
+	/* content: "\e056"; */
+	content: "\27A4";
 }
 .icon-quote:before {
 	content: "\e057";

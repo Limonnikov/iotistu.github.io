@@ -5207,7 +5207,7 @@ footer .widget_list li a {
 	padding-left: 145px;	
 }
 .sname{
-	width: 100%;
+	width: 80% !important;
 }
 .schedule-item .sc-info span {
 	font-size:14px !important;
