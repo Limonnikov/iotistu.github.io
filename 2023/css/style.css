@@ -5200,7 +5200,7 @@ footer .widget_list li a {
 	font-size:18px !important;
 	margin-bottom: 10px;
 	line-height: 1.4em;
-	/* font-weight:bold; */
+	font-weight:bold;
 }
 .sname {
 	color: #80d6ff !important;
