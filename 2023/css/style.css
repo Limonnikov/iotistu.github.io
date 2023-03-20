@@ -7785,6 +7785,10 @@ a, img {
 		align-items: end;
 		margin-bottom: 10px;
 	}
+	.sc-more {
+		width: initial !important;
+		margin-top: 10px;
+	}
 }
 
 @media only screen and (max-width: 420px) {
@@ -7813,6 +7817,10 @@ a, img {
 	}
 	.name-item .big {
 
+	}
+	.sc-more {
+		width: initial !important;
+		margin-top: 10px;
 	}
 }
 
