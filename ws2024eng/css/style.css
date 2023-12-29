@@ -2282,7 +2282,10 @@ span.teaser {
 	color: #fff !important;
 }
 .de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6 {
-	/*color: #574a66;*/
+	color: #574a66;
+}
+.de_light #section-speakers h3{
+	color:#eceff3;
 }
 
 .text-white{
