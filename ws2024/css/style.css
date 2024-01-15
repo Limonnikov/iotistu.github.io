@@ -669,6 +669,9 @@ section {
 	overflow: hidden;
 	position: relative;
 }
+. margin {
+	 margin: 0px;
+}
 .de-navbar-left .container-fluid .container {
 	width: 100% !important;
 }
