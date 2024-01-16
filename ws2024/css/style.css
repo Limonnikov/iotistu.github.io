@@ -688,20 +688,6 @@ section {
 	overflow: hidden !important;
 }
 
-h3.annotation {
-	text-decoration: none;
-}
-h3.annotation + div {
-	opacity: 0;
-    	z-index: -1;
-    	position: absolute;
-    	background: #eee;
-    	color: #000;
-    	padding: 10px;
-	margin-left: -150px;
-	transition: .5s;
-}
-
 h5.annotation {
 	text-decoration: none;
 }
