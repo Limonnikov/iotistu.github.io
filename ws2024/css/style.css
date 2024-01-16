@@ -701,9 +701,14 @@ h3.annotation + div {
 	margin-left: -150px;
 	transition: .5s;
 }
+
+h3.annotation:hover + div {
+	opacity: 100%;
+	z-index: 2;
 h5.annotation {
-	text-decoration: dashed underline;
+	text-decoration: none;
 }
+	
 h5.annotation + div {
 	opacity: 0;
     	z-index: -1;
