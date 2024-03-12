@@ -1689,7 +1689,7 @@ a.btn-custom, .btn-custom {
 	color: #fff;
 	border-radius: 40px;
 	padding: 10px 30px 10px 30px;
-	margin: 10px;
+	margin: 2px;
 	min-width: 120px;
 	text-decoration:none;
 }
@@ -7610,6 +7610,7 @@ a, img {
     color: #fff;
     border-radius: 40px;
     padding: 5px 20px 5px 20px;
+	margin: 10px;	
     /* min-width: 120px; */
     text-decoration: none;
 	}
