@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy multiple static sites to Pages
 
 on:
   push:
@@ -20,11 +20,18 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Combine both sites
+        run: |
+          mkdir combined
+          cp -r ws2024/* combined/
+          mkdir combined/eng
+          cp -r ws2024eng/* combined/eng/
+
+      - name: Upload combined artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'ws2024' # Путь к сайту
-          name: 'github-pages' # Имя должно совпадать с ожидаемым
+          path: 'combined'
+          name: 'github-pages'
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
