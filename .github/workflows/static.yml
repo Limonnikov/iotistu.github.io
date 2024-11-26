@@ -1,4 +1,4 @@
-name: Deploy multiple static sites to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -10,10 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -24,18 +20,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload ws2024 artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'ws2024'
-          name: 'ws2024-pages'
-
-      - name: Upload ws2024eng artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'ws2024eng'
-          name: 'ws2024eng-pages'
+          path: 'ws2024' # Путь к сайту
+          name: 'github-pages' # Имя должно совпадать с ожидаемым
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
