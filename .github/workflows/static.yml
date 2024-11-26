@@ -28,11 +28,13 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'ws2024'
+          name: 'ws2024-site' # Уникальное имя артефакта для основного сайта
 
       - name: Deploy secondary site (ws2024eng)
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'ws2024eng'
+          name: 'ws2024eng-site' # Уникальное имя артефакта для второго сайта
 
       - name: Deploy to GitHub Pages
         id: deployment
